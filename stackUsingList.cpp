@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class myStack
+class MyStack
 {
-
 public:
-    vector<int> v;
+    list<int> v;
 
     void push(int val)
     {
@@ -38,9 +37,7 @@ public:
 
 int main()
 {
-
-    myStack st;
-
+    MyStack st;
     int n;
     cin >> n;
 
